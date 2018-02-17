@@ -69,7 +69,7 @@ def main():
         t=time1()
         if t:
             print('get tickets info start!')
-           # state=mail('2247531586@qq.com',MIMEText('working good','plain','utf-8'))
+            state=mail('2247531586@qq.com',MIMEText('working good','plain','utf-8'))
             try:
                 set=ticket(url,train_mun)
                 if set==1:
@@ -81,8 +81,8 @@ def main():
                 print('error')
 
         else: print('it is not the right time, restart in 5 min')
-        
-        print('robot sleeping')
         time.sleep(30)
+        
 
 main()
+OB
